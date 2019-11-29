@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="1" failures="0" name="pytest" skipped="0" tests="1" time="49.171"><testcase classname="" file="test_submit.py" name="test_submit" time="0.000"><error message="collection failure">ImportError while importing test module &apos;C:\Users\Alessandra Faria\codenation\data-science-3\test_submit.py&apos;.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\AppData\Local\Programs\Python\Python37-32\lib\site-packages\_pytest\python.py:507: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+..\..\AppData\Local\Programs\Python\Python37-32\lib\site-packages\py\_path\local.py:701: in pyimport
+    __import__(modname)
+..\..\AppData\Local\Programs\Python\Python37-32\lib\site-packages\_pytest\assertion\rewrite.py:304: in load_module
+    exec(co, mod.__dict__)
+test_submit.py:1: in &lt;module&gt;
+    from main import *
+main.py:24: in &lt;module&gt;
+    from sklearn.decomposition import PCA
+E   ModuleNotFoundError: No module named &apos;sklearn&apos;</error></testcase></testsuite>
